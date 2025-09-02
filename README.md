@@ -40,11 +40,12 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: Priyadharshini Raja
+### Name:PRIYADHARSHINI RAJA
 
-### Register Number: 212223230160
+### Register Number:212223230160
+
 ```
-python
+
 import torch
 import torch.nn as nn
 import numpy as np
@@ -64,9 +65,9 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.title('Generated Data for Linear Regression')
 plt.show()
-
-
 torch.manual_seed(59)
+
+
 
 
 class Model(nn.Module):
@@ -138,26 +139,23 @@ plt.show()
 
 ### Dataset Information
 
-<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/f601fa65-88b5-4b81-a17e-c48f277eeb40" />
+<img width="844" height="593" alt="image" src="https://github.com/user-attachments/assets/13b3ff34-5c98-4390-8cf8-d1a213b38456" />
 
 
 ### OUTPUT
 Training Loss Vs Iteration Plot
 
-<img width="580" height="432" alt="image" src="https://github.com/user-attachments/assets/b840fbd1-2e54-4e93-be32-dca5828fa1c2" />
-
+<img width="1048" height="543" alt="image" src="https://github.com/user-attachments/assets/03c470b9-43a8-41d2-88bc-3006ac139f14" />
 
 Best Fit line plot
 
-<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/f8879903-b158-468a-8760-28d56e6edecc" />
+<img width="928" height="582" alt="image" src="https://github.com/user-attachments/assets/e541173c-ff70-4dbd-b3ae-5356f1f83882" />
+
 
 
 ### New Sample Data Prediction
-
-
-<img width="722" height="63" alt="image" src="https://github.com/user-attachments/assets/10815000-cf91-4786-8bc4-d4e711255fb1" />
+<img width="1103" height="108" alt="image" src="https://github.com/user-attachments/assets/cce0bd5d-cb95-4eae-b363-15f0d9382a3f" />
 
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
-]
